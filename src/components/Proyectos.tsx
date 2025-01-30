@@ -1,10 +1,11 @@
-import adivinaLaPalabra from '../assets/Logo-yuhjak-round.svg'
+import adivinaLaPalabra from '../assets/Adivina.svg'
 
 const Proyectos = () => {
   return (
     <div>
       <article className="pt-20">
-        <h3 className="text-white text-3xl ">Proyectos</h3>
+        <h3 className="text-white text-3xl font-bold">Proyectos</h3>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
           <article className="h-auto w-auto border-2 border-zinc-700 rounded-lg p-4">
             <div>
@@ -19,6 +20,26 @@ const Proyectos = () => {
               <p className="text-gray-200 pb-2">
                 Un pequeño proyecto creado para practicar Redux Toolkit junto a
                 React y TypeScript.
+                <a
+                  href="https://github.com/yuhjak25/adivina-la-palabra"
+                  target="_blank"
+                  className="flex items-center text-zinc-600 text-sm hover:underline hover:decoration-dotted hover:text-zinc-200 transition-colors duration-300 ease-in-out">
+                  Repositorio{' '}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16" // tamaño reducido del ícono
+                    height="16" // tamaño reducido del ícono
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-arrow-up-right ml-1">
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </a>
               </p>
 
               <div>

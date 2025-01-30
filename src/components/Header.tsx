@@ -3,7 +3,7 @@ const Header = () => {
     <div>
       <div className="flex items-center pb-4 pt-10">
         <h1 className="text-3xl text-orange-500 font-bold pr-2">Unai</h1>
-        <span className="text-1xl font-semibold text-zinc-500 hover:text-white transition-colors duration-300 ease-in-out">
+        <span className="text-1xl font-semibold text-zinc-600 hover:text-zinc-200 transition-colors duration-300 ease-in-out">
           ～ @yuhjak25
         </span>
       </div>

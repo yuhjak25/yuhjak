@@ -2,7 +2,7 @@ const FollowMe = () => {
   return (
     <div>
       <article className="pt-20 ">
-        <h3 className="text-zinc-700 flex items-center">Follow me</h3>
+        <h3 className="text-white flex items-center">Follow me</h3>
         <li className="text-orange-400 list-none flex items-center">
           <a
             href="https://discord.gg/Kt79Sf6CZp"

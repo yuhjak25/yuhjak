@@ -4,9 +4,9 @@ const SobreMi = () => {
   return (
     <div>
       <section className="pt-20">
-        <h3 className="text-white">Sobre mí</h3>
-        <div className="flex items-center justify-center">
-          <p className="text-gray-200 pt-2 ">
+        <h3 className="text-white text-3xl font-bold">Sobre mí</h3>
+        <div className="flex items-center justify-center gap-4 pt-4 ">
+          <p className="text-gray-200 ">
             Hola, soy Unai, aunque muchos me conocen como yuhjak. Actualmente
             estoy{' '}
             <span className="text-orange-400">
