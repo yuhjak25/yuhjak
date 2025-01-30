@@ -9,7 +9,7 @@ const Header = () => {
       </div>
       <article>
         <h1 className="text-white text-5xl font-extrabold">
-          Estudiando Desarrollo de Aplicaciones Web
+          Estudiante de Desarrollo de Aplicaciones Web
         </h1>
         <p className="text-gray-200 pt-4">
           Apasionado por aprender y crear aplicaciones web innovadoras. Enfocado
