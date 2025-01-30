@@ -1,13 +1,13 @@
 @import 'tailwindcss';
-
-body {
-  font-family: 'Cascadia Code', monospace;
-}
-
 :root {
-  background: black;
+  overflow: scroll;
+  scrollbar-width: none;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 ::selection {
-  background-color: #f97316; /* Naranja */
-  color: black; /* Color del texto seleccionado */
+  background-color: #f97316;
+  color: black;
 }
