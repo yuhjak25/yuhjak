@@ -5,7 +5,7 @@ const SobreMi = () => {
     <div>
       <section className="pt-20">
         <h3 className="text-white text-3xl font-bold">Sobre mí</h3>
-        <div className="flex items-center justify-center">
+        <div className="flex flex-col sm:flex-row items-center justify-center">
           <p className="text-gray-200 ">
             Hola, soy Unai, aunque muchos me conocen como yuhjak. Actualmente
             estoy{' '}
@@ -19,7 +19,7 @@ const SobreMi = () => {
           <img
             src={yuhjakNewLogo}
             alt="Logo de yuhjak"
-            className="size-50 ml-4"
+            className="size-50 ml-4 sm:ml-0 sm:mt-0 mt-4"
           />
         </div>
       </section>

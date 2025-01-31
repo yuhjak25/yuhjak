@@ -3,7 +3,7 @@ const Header = () => {
     <div>
       <div className="flex items-center pb-4 pt-10">
         <h1 className="text-3xl text-orange-500 font-bold pr-2">Unai</h1>
-        <span className="text-1xl font-semibold text-zinc-600 hover:text-zinc-200 transition-colors duration-300 ease-in-out">
+        <span className="text-1xl font-semibold text-zinc-600 hover:text-zinc-200 transition-colors duration-300 ease-in">
           ～ @yuhjak25
         </span>
       </div>
@@ -22,7 +22,7 @@ const Header = () => {
           ● Estudiando, no disponible.
         </p>
         <div className="flex items-center pt-0.5">
-          <button className="text-white border-1 border-zinc-700  p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in-out">
+          <button className="text-white border-1 border-zinc-700  p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=yuhjakcontact@gmail.com&su=Contacto"
               target="_blank">
@@ -45,7 +45,7 @@ const Header = () => {
               </svg>
             </a>
           </button>
-          <button className="text-white border-1 border-zinc-700 p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in-out">
+          <button className="text-white border-1 border-zinc-700 p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in">
             <a href="https://github.com/yuhjak25" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

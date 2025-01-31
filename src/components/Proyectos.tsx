@@ -11,7 +11,7 @@ const Proyectos = () => {
           <article className="h-auto w-auto border-2 border-zinc-700 p-4">
             <div>
               <img
-                className="text-zinc-700"
+                className="cursor-zoom-in text-zinc-700 transform transition-transform ease-in duration-300 hover:scale-200"
                 src={adivinaLaPalabra}
                 alt="Captura de la aplicación."
               />
