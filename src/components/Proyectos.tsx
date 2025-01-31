@@ -1,4 +1,5 @@
 import adivinaLaPalabra from '../assets/Adivina.svg'
+import TextScramble from './TextScramble'
 
 const Proyectos = () => {
   return (
@@ -7,7 +8,7 @@ const Proyectos = () => {
         <h3 className="text-white text-3xl font-bold">Proyectos</h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-          <article className="h-auto w-auto border-2 border-zinc-700 rounded-lg p-4">
+          <article className="h-auto w-auto border-2 border-zinc-700 p-4">
             <div>
               <img
                 className="text-zinc-700"
@@ -17,7 +18,7 @@ const Proyectos = () => {
               <h4 className="text-orange-500 text-1xl font-bold ">
                 ～ Adivina la palabra
               </h4>
-              <p className="text-gray-200 pb-2">
+              <p className="text-zinc-200 pb-2">
                 Un pequeño proyecto creado para practicar Redux Toolkit junto a
                 React y TypeScript.
                 <a
@@ -44,7 +45,7 @@ const Proyectos = () => {
 
               <div>
                 <span className="text-white flex items-center">
-                  <div className="flex items-center h-auto w-auto p-2 rounded-lg border-2 border-zinc-700">
+                  <div className="flex items-center h-auto w-auto p-2 border-1 border-zinc-700">
                     <svg
                       className="size-6"
                       viewBox="0 0 256 256"
@@ -62,7 +63,7 @@ const Proyectos = () => {
                       />
                     </svg>
                   </div>
-                  <div className="flex items-center h-auto w-auto p-2 ml-2 rounded-lg border-2 border-zinc-700">
+                  <div className="flex items-center h-auto w-auto p-2 ml-2 border-1 border-zinc-700">
                     <svg
                       className="size-6"
                       width="569px"
@@ -87,7 +88,7 @@ const Proyectos = () => {
                       </g>
                     </svg>
                   </div>
-                  <div className="flex items-center h-auto w-auto p-2 ml-2 rounded-lg border-2 border-zinc-700">
+                  <div className="flex items-center h-auto w-auto p-2 ml-2 border-1 border-zinc-700">
                     <svg
                       className="size-6"
                       width="800px"
@@ -101,7 +102,7 @@ const Proyectos = () => {
                       />
                     </svg>
                   </div>
-                  <div className="flex items-center h-auto w-auto p-2 ml-2 rounded-lg border-2 border-zinc-700">
+                  <div className="flex items-center h-auto w-auto p-2 ml-2 border-1 border-zinc-700">
                     <svg
                       className="size-6"
                       viewBox="0 0 256 154"
@@ -130,19 +131,26 @@ const Proyectos = () => {
             </div>
           </article>
 
-          <article className="flex items-center justify-center border-2 border-zinc-700 rounded-lg p-4">
-            <div className="flex items-center justify-center h-auto w-auto">
-              <l-quantum size="100" speed="1.75" color="white"></l-quantum>
+          <article className="flex border-2 border-zinc-700 p-4">
+            <div className="flex flex-col items-center justify-center w-full">
+              <p className="text-zinc-700 font-bold text-4xl">
+                <TextScramble />
+              </p>
             </div>
           </article>
-          <article className="flex items-center justify-center border-2 border-zinc-700 rounded-lg p-4">
+
+          <article className="flex items-center justify-center border-2 border-zinc-700  p-4">
             <div className="flex items-center justify-center h-auto w-auto">
-              <l-quantum size="100" speed="1.75" color="white"></l-quantum>
+              <p className="text-zinc-700 font-bold text-sl">
+                <TextScramble />
+              </p>
             </div>
           </article>
-          <article className="flex items-center justify-center border-2 border-zinc-700 rounded-lg p-4">
+          <article className="flex items-center justify-center border-2 border-zinc-700  p-4">
             <div className="flex items-center justify-center h-auto w-auto">
-              <l-quantum size="100" speed="1.75" color="white"></l-quantum>
+              <p className="text-zinc-700 font-bold text-sl">
+                <TextScramble />
+              </p>
             </div>
           </article>
         </div>

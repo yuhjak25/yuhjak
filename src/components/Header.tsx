@@ -19,10 +19,10 @@ const Header = () => {
       </article>
       <section>
         <p className="text-orange-400 animate-pulse pb-0.5">
-          • Estudiando, no disponible.
+          ● Estudiando, no disponible.
         </p>
         <div className="flex items-center pt-0.5">
-          <button className="text-white border-2 border-zinc-700 rounded-xl p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in-out">
+          <button className="text-white border-1 border-zinc-700  p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in-out">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=yuhjakcontact@gmail.com&su=Contacto"
               target="_blank">
@@ -45,7 +45,7 @@ const Header = () => {
               </svg>
             </a>
           </button>
-          <button className="text-white border-2 border-zinc-700 rounded-xl p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in-out">
+          <button className="text-white border-1 border-zinc-700 p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in-out">
             <a href="https://github.com/yuhjak25" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

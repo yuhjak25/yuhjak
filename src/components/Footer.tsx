@@ -39,7 +39,7 @@ const Footer = () => {
             </svg>
           </a>
         </li>
-        <footer className="text-zinc-700">©️ 2025 yuhjak25 💜</footer>
+        <footer className="text-zinc-700">© 2025 yuhjak25 💜</footer>
       </article>
     </div>
   )
