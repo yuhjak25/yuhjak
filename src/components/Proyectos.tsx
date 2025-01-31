@@ -24,7 +24,7 @@ const Proyectos = () => {
                 <a
                   href="https://github.com/yuhjak25/adivina-la-palabra"
                   target="_blank"
-                  className="flex items-center text-zinc-600 text-sm hover:underline hover:decoration-dotted hover:text-zinc-200 transition-colors duration-300 ease-in-out">
+                  className="flex items-center text-zinc-600 text-sm hover:underline hover:decoration-dotted hover:text-zinc-200 transition-colors duration-300 ease-in">
                   Repositorio{' '}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
