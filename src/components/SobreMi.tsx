@@ -19,7 +19,7 @@ const SobreMi = () => {
           <img
             src={yuhjakNewLogo}
             alt="Logo de yuhjak"
-            className="size-50 rounded-2xl ml-4"
+            className="size-50 ml-4"
           />
         </div>
       </section>
