@@ -13,7 +13,9 @@ const IconsButton = ({ href, icon, altText }: IconsButtonProps) => {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={defaultAltText}>
+      aria-label={defaultAltText}
+      className="text-white border-1 border-zinc-700 p-2 mr-4  hover:border-orange-500 transition-colors duration-300 ease-in"
+      type="button">
       {icon}
     </a>
   )

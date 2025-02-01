@@ -43,7 +43,7 @@ const Skills = () => {
                   aria-label={`${name} icon`}
                   className="w-10 h-10 text-zinc-600"
                 />
-                <span className="text-sm mt-1">{name}</span>
+                <span className="text-sm text-zinc-600 mt-1">{name}</span>
               </div>
             ))}
           </div>
@@ -56,7 +56,7 @@ const Skills = () => {
               {learning.map(({ Icon, name }, index) => (
                 <div key={index} className="flex flex-col items-center">
                   <Icon aria-label={`${name} icon`} className="w-7 h-7" />
-                  <span className="text-sm mt-1">{name}</span>
+                  <span className="text-sm text-zinc-600 mt-1">{name}</span>
                 </div>
               ))}
             </div>
@@ -68,7 +68,7 @@ const Skills = () => {
               {wannaLearn.map(({ Icon, name }, index) => (
                 <div key={index} className="flex flex-col items-center">
                   <Icon aria-label={`${name} icon`} className="w-7 h-7" />
-                  <span className="text-sm mt-1">{name}</span>
+                  <span className="text-sm text-zinc-600 mt-1">{name}</span>
                 </div>
               ))}
             </div>

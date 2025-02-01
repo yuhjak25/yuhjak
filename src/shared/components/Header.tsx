@@ -71,11 +71,12 @@ const Header = () => {
               altText: 'Ir al perfil de GitHub de Yuhjak',
             },
           ].map(({ href, icon, altText }, index) => (
-            <button
+            <IconsButton
               key={index}
-              className="text-white border-1 border-zinc-700 p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in">
-              <IconsButton href={href} altText={altText} icon={icon} />
-            </button>
+              href={href}
+              altText={altText}
+              icon={icon}
+            />
           ))}
         </div>
       </section>

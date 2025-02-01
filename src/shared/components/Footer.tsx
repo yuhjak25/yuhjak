@@ -45,11 +45,7 @@ const Footer = () => {
       <article className="pt-10 flex justify-center items-center">
         <h3 className="text-white flex items-center pr-2">Follow me</h3>
         {socialLinks.map(({ href, icon, altText }, index) => (
-          <button
-            key={index}
-            className="text-white border-1 border-zinc-700 p-2 mr-2 hover:border-orange-500 transition-colors duration-300 ease-in">
-            <IconsButton href={href} altText={altText} icon={icon} />
-          </button>
+          <IconsButton key={index} href={href} altText={altText} icon={icon} />
         ))}
         <footer className="text-zinc-700">© 2025 yuhjak25 💜</footer>
       </article>

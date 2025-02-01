@@ -16,7 +16,7 @@ const ProyectosCard = ({
   return (
     <div>
       <img
-        className="cursor-zoom-in text-zinc-700 transform transition-transform ease-in duration-300 hover:scale-110"
+        className="cursor-zoom-in text-zinc-700 transform transition-transform ease-in duration-300 hover:scale-200"
         src={imgSrc}
         alt={altText}
         loading="lazy"
