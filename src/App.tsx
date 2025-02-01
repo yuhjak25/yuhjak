@@ -1,8 +1,8 @@
 import { quantum } from 'ldrs'
-import Header from './components/Header'
-import Proyectos from './components/Proyectos'
-import SobreMi from './components/SobreMi'
-import Footer from './components/Footer'
+import Header from './shared/components/Header'
+import Proyectos from './features/projects/Proyectos'
+import SobreMi from './features/about/SobreMi'
+import Footer from './shared/components/Footer'
 
 quantum.register()
 const App = () => {

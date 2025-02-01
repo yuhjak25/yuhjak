@@ -18,7 +18,9 @@ const TextScramble = () => {
       setScrambledText(scramble(originalText))
     }, 100)
 
-    return () => clearInterval(interval)
+    return () => {
+      clearInterval(interval)
+    }
   }, [])
   return <p>{scrambledText} </p>
 }

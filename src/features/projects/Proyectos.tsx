@@ -1,5 +1,6 @@
-import adivinaLaPalabra from '../assets/Adivina.svg'
-import TextScramble from './TextScramble'
+import adivinaLaPalabra from '../../assets/Adivina.svg'
+import TextScramble from '../../shared/components/TextScramble'
+import ProyectosCard from './components/ProyectosCard'
 
 const Proyectos = () => {
   return (
@@ -9,40 +10,15 @@ const Proyectos = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
           <article className="h-auto w-auto border-2 border-zinc-700 p-4">
+            <ProyectosCard
+              title="～ Adivina la palabra"
+              description="Un pequeño proyecto creado para practicar Redux Toolkit junto a
+                React y TypeScript."
+              imgSrc={adivinaLaPalabra}
+              altText="Captura de la aplicación."
+              gitLink="https://github.com/yuhjak25/adivina-la-palabra"
+            />
             <div>
-              <img
-                className="cursor-zoom-in text-zinc-700 transform transition-transform ease-in duration-300 hover:scale-200"
-                src={adivinaLaPalabra}
-                alt="Captura de la aplicación."
-              />
-              <h4 className="text-orange-500 text-1xl font-bold ">
-                ～ Adivina la palabra
-              </h4>
-              <p className="text-zinc-200 pb-2">
-                Un pequeño proyecto creado para practicar Redux Toolkit junto a
-                React y TypeScript.
-                <a
-                  href="https://github.com/yuhjak25/adivina-la-palabra"
-                  target="_blank"
-                  className="flex items-center text-zinc-600 text-sm hover:underline hover:decoration-dotted hover:text-zinc-200 transition-colors duration-300 ease-in">
-                  Repositorio{' '}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-arrow-up-right ml-1">
-                    <path d="M7 7h10v10" />
-                    <path d="M7 17 17 7" />
-                  </svg>
-                </a>
-              </p>
-
               <div>
                 <span className="text-white flex items-center">
                   <div className="flex items-center h-auto w-auto p-2 border-1 border-zinc-700">
