@@ -3,6 +3,7 @@ import Header from './shared/components/Header'
 import Proyectos from './features/projects/Proyectos'
 import SobreMi from './features/about/SobreMi'
 import Footer from './shared/components/Footer'
+import Skills from './features/skills/Skills'
 
 quantum.register()
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <section className="mx-auto max-w-[696px] p-6 pb-12 relative z-10">
           <Header />
           <Proyectos />
+          <Skills />
           <SobreMi />
           <Footer />
         </section>

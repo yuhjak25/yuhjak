@@ -42,7 +42,7 @@ const Footer = () => {
 
   return (
     <div>
-      <article className="pt-20 flex justify-center items-center">
+      <article className="pt-10 flex justify-center items-center">
         <h3 className="text-white flex items-center pr-2">Follow me</h3>
         {socialLinks.map(({ href, icon, altText }, index) => (
           <button

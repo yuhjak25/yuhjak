@@ -3,7 +3,7 @@ import yuhjakNewLogo from '../../assets/Logo-yuhjak-nuevo.svg'
 const SobreMi = () => {
   return (
     <div>
-      <section className="pt-20">
+      <section className="pt-15">
         <h3 className="text-white text-3xl font-bold">Sobre mí</h3>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <p className="text-gray-200">
