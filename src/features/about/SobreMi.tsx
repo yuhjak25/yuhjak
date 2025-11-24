@@ -1,4 +1,4 @@
-import yuhjakNewLogo from '../../assets/Logo-yuhjak-nuevo.svg'
+import yuhjakNewLogo from '../../assets/Logo-yuhjak-nuevo.webp'
 
 const SobreMi = () => {
   return (
